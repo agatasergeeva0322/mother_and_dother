@@ -50,11 +50,7 @@ open class PhoneCall (var phonenumber: String,
 
 
     }
-    open fun output (call: PhoneCall)
-    {
-        println ("\nНомер телефона: ${phonenumber}\nДата звонка: ${phonenumber}\nПродолжительность звонка: ${phonenumber}\nКод города: ${phonenumber}")
-    }
-
+    
     class Puple (var name : String, var cost : Double, empPhonenumber: String, empDate : String, empLengthOfTheCall : Double, empCodOfCity :Int): PhoneCall (empPhonenumber, empDate , empLengthOfTheCall , empCodOfCity)
     {
 
