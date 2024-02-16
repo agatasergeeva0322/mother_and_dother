@@ -32,7 +32,7 @@ open class Car (var name: String,
         }
     }
 
-    class Shop (var run : Double, var pup_year : Double, var cost : Double, var count : Int, var totalcost : Double, empName: String, empPower : Int, empPrice : Double): Car (empName, empPower, empPrice)
+    class Shop ( var pup_year : Double, var cost : Double, var count : Int, var totalcost : Double, empName: String, empPower : Int, empPrice : Double): Car (empName, empPower, empPrice)
     {
 
         fun Input_(){
